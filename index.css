@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item {
+    padding: 5%;
+    margin-right: 5px;
+    display: inline;
+    vertical-align: top;
+    margin-left: auto;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+
+.intro {
+    height: calc(100vh - 213px);
+}
+
+.line1:hover {
+    color: #2E7AFF;
+}
+
+.text {
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.text div {
+    padding: 5px;
+}
+
+.down {
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transition: all 0.5s ease;
+}
+
+.down:hover {
+    transform: translate(0px,10px);
+}
+
+
+.intro div {
+    font-size: 24px;
+}
+
+.line1 {
+    display: inline-block;
+}
+
+.travelbuddy {
+    height: 600px;
+    background-color: #87AEF7;
+    color: white;
+    font-size: 20px;
+}
+
+.travelbuddy-container {
+    display: inline-block;
+    margin-left: 295px;
+    margin-top: 50px;
+}
+
+.travelbuddy-text {
+    width: 500px;
+    margin-top: 150px;
+    margin-right: 175px;
+    float: right;
+}
+
+.travelbuddy button {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: RGB(0,0,0,0);
+    color: white;
+    border-color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.giftofbread {
+    height: 600px;
+    background-color: #FFF6E0;
+    color:#3C3C3C;
+    font-size: 20px;
+}
+
+.gob-container {
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 125px;
+}
+
+.giftofbread-text {
+    width: 500px;
+    margin-top: 150px;
+    margin-right: 175px;
+    float: right;
+}
+
+.giftofbread button {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: RGB(0,0,0,0);
+    color: #3C3C3C;
+    border-color: #3C3C3C;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.newme {
+    height: 600px;
+    background-color: #F9E5EC;
+    color: #403A50;
+    font-size: 20px;
+}
+
+.newme-container {
+    display: inline-block;
+    margin-left: 295px;
+    margin-top: 50px;
+}
+
+.newme-text {
+    width: 500px;
+    margin-top: 150px;
+    margin-right: 175px;
+    float: right;
+}
+
+.newme button {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: RGB(0,0,0,0);
+    color: #403A50;
+    border-color: #403A50;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.abc {
+    height: 600px;
+    background-color: #434C5F;
+    color: white;
+    font-size: 20px;
+}
+
+.abc-container {
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 125px;
+}
+
+.abc-text {
+    width: 500px;
+    margin-top: 150px;
+    margin-right: 175px;
+    float: right;
+}
+
+.abc button {
+    padding: 20px;
+    border-radius: 25px;
+    background-color: RGB(0,0,0,0);
+    color: white;
+    border-color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons img {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+

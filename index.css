@@ -17,15 +17,23 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
+    border-bottom: solid 1px RGB(0,0,0,0.2);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
+.name {
+    padding-left: 7%;
+    padding-right: 7%;
+}
 
 .nav {
     display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
     justify-content: space-around;
 }
 
@@ -43,40 +51,45 @@ nav {
 
 
 .intro {
-    height: calc(100vh - 213px);
+    height: calc(100vh - 220px);
+    display: relative;
+}
+
+.text {
+    margin-left: 15%;
+    margin-top: 12%;
+}
+
+.line1 {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.line2 {
+    margin-top: 15px;
+    font-size: 24px;
 }
 
 .line1:hover {
     color: #2E7AFF;
 }
 
-.text {
-    margin-left: 300px;
-    margin-top: 150px;
-}
 
 .text div {
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .down {
     position: absolute;
     left: 50%;
-    bottom: 2%;
+    bottom: 3%;
     transition: all 0.5s ease;
 }
 
 .down:hover {
     transform: translate(0px,10px);
-}
-
-
-.intro div {
-    font-size: 24px;
-}
-
-.line1 {
-    display: inline-block;
 }
 
 .travelbuddy {
@@ -88,14 +101,14 @@ nav {
 
 .travelbuddy-container {
     display: inline-block;
-    margin-left: 295px;
-    margin-top: 50px;
+    margin-left: 20%;
+    margin-top: 4%;
 }
 
 .travelbuddy-text {
     width: 500px;
-    margin-top: 150px;
-    margin-right: 175px;
+    margin-top: 10%;
+    margin-right: 12%;
     float: right;
 }
 
@@ -120,14 +133,14 @@ nav {
 
 .gob-container {
     display: inline-block;
-    margin-left: 140px;
-    margin-top: 125px;
+    margin-left: 10%;
+    margin-top: 8%;
 }
 
 .giftofbread-text {
     width: 500px;
-    margin-top: 150px;
-    margin-right: 175px;
+    margin-top: 10%;
+    margin-right: 12%;
     float: right;
 }
 
@@ -150,14 +163,14 @@ nav {
 
 .newme-container {
     display: inline-block;
-    margin-left: 295px;
-    margin-top: 50px;
+    margin-left: 20%;
+    margin-top: 4%;
 }
 
 .newme-text {
     width: 500px;
-    margin-top: 150px;
-    margin-right: 175px;
+    margin-top: 10%;
+    margin-right: 12%;
     float: right;
 }
 
@@ -182,14 +195,14 @@ nav {
 
 .abc-container {
     display: inline-block;
-    margin-left: 140px;
-    margin-top: 125px;
+    margin-left: 10%;
+    margin-top: 8%;
 }
 
 .abc-text {
     width: 500px;
-    margin-top: 150px;
-    margin-right: 175px;
+    margin-top: 10%;
+    margin-right: 12%;
     float: right;
 }
 
@@ -222,4 +235,127 @@ footer {
     margin-top: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+
+h2 {
+    font-size: 20px;
+}
+nav {
+    font-size: 14px;
+}
+
+.intro {
+    height: calc(100vh - 120px);
+}
+
+.intro img {
+    width: 15%;
+    height: 15%;
+}
+
+.line1 {
+        font-size: 20px;
+}
+
+.line2 {
+    font-size: 16px;
+}
+
+.travelbuddy {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.travelbuddy-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.travelbuddy-container {
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.travelbuddy img {
+    height: 25em;
+}
+
+.giftofbread {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.giftofbread-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.gob-container {
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.giftofbread img {
+    height: 15em;
+}
+
+.newme {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.newme-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.newme-container {
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.newme img {
+    height: 25em;
+}
+
+.abc {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.abc-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+}
+
+.abc-container {
+    margin-top: -4%;
+    margin-left: -10%;
+}
+.abc img {
+    height: 15em;
+}
+
+}
 
